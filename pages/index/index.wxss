@@ -1,0 +1,58 @@
+/**index.wxss**/
+
+.change {
+  color: #8995a1;
+  font-size: 24rpx;
+  padding: 20rpx 40rpx;
+  display: flex;
+  align-items: center;
+}
+
+.change .icon-down {
+  color: #8995a1;
+  font-size: 20rpx;
+}
+
+.input-area {
+  position: relative;
+}
+
+.textarea-wrap {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.input-area textarea {
+  background: #fff;
+  padding: 30rpx 0 30rpx 30rpx;
+  width: calc(100% - 48rpx);
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.icon-close {
+  position: absolute;
+  right: 12rpx;
+  top: 20rpx;
+  z-index: 100;
+  font-size: 40rpx;
+  color: #888;
+}
+/* 译文区域 */
+.text-area {
+  min-height: 80rpx;
+  padding: 40rpx;
+  background: #fff;
+}
+.text-area>.text-title {
+  font-size: 28rpx;
+  color:#8995a1;
+}
+.text-area>.text-result {
+  padding: 20rpx 0;
+}
+
+.copyright>.icon-copyright {
+  font-size: 26rpx;
+  margin-right: 10rpx;
+}

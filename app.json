@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/history/history",
+    "pages/change/change"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1c1b21",
+    "navigationBarTitleText": "little翻译器",
+    "navigationBarTextStyle":"#fff",
+    "backgroundColor":"#333"
+  },
+  "tabBar": {
+    "borderStyle":"white",
+    "position":"top",
+    "selectedColor":"#1c1b21",
+    "color":"#595959",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史"
+      }
+    ]
+  }
+}
